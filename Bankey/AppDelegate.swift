@@ -27,31 +27,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         dummyViewController.logoutDelegate = self
         
         
-        window?.rootViewController = onboardingViewController
-        // window?.rootViewController = loginViewController
+       // window?.rootViewController = onboardingViewController
+         window?.rootViewController = loginViewController
        // window?.rootViewController = OnboardingViewController(heroImageName: "delorean", titleText: "Bankey is faster, easier to use, and has a brand new look and feel that will make you fell like you are back in 1989.")
         
         return true
     }
 
-}
-
-extension AppDelegate: LoginViewControllerDelegate {
-    func didLogin() {
-        setRootViewController(onboardingViewController)
-    }
-}
-
-extension AppDelegate: OnboardingContainerViewControllerDelegate {
-    func didFinishOnboarding() {
-        setRootViewController(dummyViewController)
-    }
-}
-
-extension AppDelegate: LogoutDelegate {
-    func didLogout() {
-        setRootViewController(loginViewController)
-    }
 }
 
 extension AppDelegate {
@@ -70,6 +52,30 @@ extension AppDelegate {
                           completion: nil)
     }
 }
+
+extension AppDelegate: LoginViewControllerDelegate {
+    func didLogin() {
+        if LocalState.hasOnboarded {
+            setRootViewController(dummyViewController)
+        } else {
+            setRootViewController(onboardingViewController)
+        }
+    }
+}
+
+extension AppDelegate: OnboardingContainerViewControllerDelegate {
+    func didFinishOnboarding() {
+        LocalState.hasOnboarded = true
+        setRootViewController(dummyViewController)
+    }
+}
+
+extension AppDelegate: LogoutDelegate {
+    func didLogout() {
+        setRootViewController(loginViewController)
+    }
+}
+
 
 
 
