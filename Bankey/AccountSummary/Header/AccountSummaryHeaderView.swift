@@ -9,9 +9,23 @@ import UIKit
 
 class AccountSummaryHeaderView: UIView {
     
-    @IBOutlet var ContentView: UIView!
+    @IBOutlet var contentView: UIView!
+    
+    @IBOutlet var welcomeLabel: UILabel!
+    @IBOutlet var nameLabel: UILabel!
+    @IBOutlet var dateLabel: UILabel!
     
     let shakeyBellView = ShakeyBellView()
+    
+    struct ViewModel {
+        let welcomeMessage: String
+        let name: String
+        let date: Date
+        
+        var dateFormatted: String {
+            return date.monthDayYearString
+        }
+    }
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -28,17 +42,16 @@ class AccountSummaryHeaderView: UIView {
     }
     
     private func commonInit() {
-        
         let bundle = Bundle(for: AccountSummaryHeaderView.self)
         bundle.loadNibNamed("AccountSummaryHeaderView", owner: self, options: nil)
-        addSubview(ContentView)
-        ContentView.backgroundColor = appColor
+        addSubview(contentView)
+        contentView.backgroundColor = appColor
         
-        ContentView.translatesAutoresizingMaskIntoConstraints = false
-        ContentView.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
-        ContentView.leadingAnchor.constraint(equalTo: self.leadingAnchor).isActive = true
-        ContentView.trailingAnchor.constraint(equalTo: self.trailingAnchor).isActive = true
-        ContentView.bottomAnchor.constraint(equalTo: self.bottomAnchor).isActive = true
+        contentView.translatesAutoresizingMaskIntoConstraints = false
+        contentView.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
+        contentView.leadingAnchor.constraint(equalTo: self.leadingAnchor).isActive = true
+        contentView.trailingAnchor.constraint(equalTo: self.trailingAnchor).isActive = true
+        contentView.bottomAnchor.constraint(equalTo: self.bottomAnchor).isActive = true
         
         setupShakeyBell()
     }
@@ -51,5 +64,11 @@ class AccountSummaryHeaderView: UIView {
             shakeyBellView.trailingAnchor.constraint(equalTo: trailingAnchor),
             shakeyBellView.bottomAnchor.constraint(equalTo: bottomAnchor)
         ])
+    }
+    
+    func configure(viewModel: ViewModel) {
+        welcomeLabel.text = viewModel.welcomeMessage
+        nameLabel.text = viewModel.name
+        dateLabel.text = viewModel.dateFormatted
     }
 }
