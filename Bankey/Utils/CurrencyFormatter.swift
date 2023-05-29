@@ -32,6 +32,7 @@ struct CurrencyFormatter {
         let dollarComponents = dollarsWithDecimal.components(separatedBy: decimalSeparator) // "$929,466" "00"
         var dollars = dollarComponents.first! // "$929,466"
         dollars.removeFirst() // "929,466"
+        Locale.current.currency?.identifier.uppercased()
 
         return dollars
     }

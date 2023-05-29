@@ -11,13 +11,14 @@ import Foundation
 extension Date {
     static var bankeyDateFormatter: DateFormatter {
         let formatter = DateFormatter()
-        formatter.timeZone = TimeZone(abbreviation: "MDT")
+        formatter.timeZone = TimeZone(abbreviation: "DMT")
         return formatter
     }
     
     var monthDayYearString: String {
-        let dateDormatter = Date.bankeyDateFormatter
-        dateDormatter.dateFormat = "MMM d, yyyy"
-        return dateDormatter.string(from: self )
+        let dateFormatter = Date.bankeyDateFormatter
+        dateFormatter.dateFormat = "d MMM, yyyy"
+        dateFormatter.locale = Locale(identifier: "ru_RU")
+        return dateFormatter.string(from: self )
     }
 }
