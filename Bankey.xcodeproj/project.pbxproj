@@ -11,6 +11,8 @@
 		046C4E3B2A05109D00B127A5 /* NSNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C4E3A2A05109D00B127A5 /* NSNotificationName.swift */; };
 		046C4E3D2A05157A00B127A5 /* UITextField+SecureToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C4E3C2A05157A00B127A5 /* UITextField+SecureToggle.swift */; };
 		04815F9B29F9AF4400DA9E2F /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04815F9A29F9AF4400DA9E2F /* OnboardingContainerViewController.swift */; };
+		0493A7C52A24DC0700D337A0 /* SkeletonLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0493A7C42A24DC0600D337A0 /* SkeletonLoadable.swift */; };
+		0493A7C72A24DEF100D337A0 /* SkeletonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0493A7C62A24DEF100D337A0 /* SkeletonCell.swift */; };
 		04A5979629FAAEF4007F4FF5 /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A5979529FAAEF4007F4FF5 /* DummyViewController.swift */; };
 		04A5979929FAC1EA007F4FF5 /* LocalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A5979829FAC1EA007F4FF5 /* LocalState.swift */; };
 		04A5979B29FBB96E007F4FF5 /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A5979A29FBB96E007F4FF5 /* UIViewController+Utils.swift */; };
@@ -49,6 +51,8 @@
 		046C4E3A2A05109D00B127A5 /* NSNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotificationName.swift; sourceTree = "<group>"; };
 		046C4E3C2A05157A00B127A5 /* UITextField+SecureToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+SecureToggle.swift"; sourceTree = "<group>"; };
 		04815F9A29F9AF4400DA9E2F /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
+		0493A7C42A24DC0600D337A0 /* SkeletonLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonLoadable.swift; sourceTree = "<group>"; };
+		0493A7C62A24DEF100D337A0 /* SkeletonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonCell.swift; sourceTree = "<group>"; };
 		04A5979529FAAEF4007F4FF5 /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
 		04A5979829FAC1EA007F4FF5 /* LocalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalState.swift; sourceTree = "<group>"; };
 		04A5979A29FBB96E007F4FF5 /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
@@ -140,6 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				04A597A72A00FF3E007F4FF5 /* AccountSummaryCell.swift */,
+				0493A7C42A24DC0600D337A0 /* SkeletonLoadable.swift */,
+				0493A7C62A24DEF100D337A0 /* SkeletonCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -344,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A597AC2A0160A8007F4FF5 /* CurrencyFormatter.swift in Sources */,
+				0493A7C72A24DEF100D337A0 /* SkeletonCell.swift in Sources */,
 				04ED23CE2A1B64A4003DFCC4 /* Date+Utils.swift in Sources */,
 				04A5979B29FBB96E007F4FF5 /* UIViewController+Utils.swift in Sources */,
 				04E2538429F91E3C0030EE70 /* LoginView.swift in Sources */,
@@ -361,6 +368,7 @@
 				04A597A029FFB4B8007F4FF5 /* AccountSummaryViewController.swift in Sources */,
 				04E2536E29F7FF0B0030EE70 /* AppDelegate.swift in Sources */,
 				04815F9B29F9AF4400DA9E2F /* OnboardingContainerViewController.swift in Sources */,
+				0493A7C52A24DC0700D337A0 /* SkeletonLoadable.swift in Sources */,
 				04ED23D02A1B6B9E003DFCC4 /* AccountSummaryViewController+Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
