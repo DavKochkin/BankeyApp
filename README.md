@@ -91,6 +91,10 @@ When working with the network, GCD is also used, DispatchQueue.main.async to dis
 
 For this screen, it is possible to get the data of a random user (1 of 4) by updating the data via UIRefreshControl
 
+### Animated objects in the app
+
+A flickering representation in the form of a "wireframe" for the displayed data in a table cell. It can be seen when data is loaded from the network for a long time, errors appear or a long update using refreshControl.
+
 ![RefreshControl](https://github.com/DavKochkin/BankeyApp/assets/122441539/91c5306e-c182-4382-9ef5-62ae110fec26)
 
 ## ErrorAlert 
