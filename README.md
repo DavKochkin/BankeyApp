@@ -22,7 +22,7 @@ ____
 
 ___
 
-## Испульзуемые технологии
+## Technologies used
 
 + UIKit
 + Architecture MVC + MVVM
@@ -40,6 +40,6 @@ ___
 
 ## Screenshots
 
-![Login View](https://github.com/DavKochkin/BankeyApp/blob/master/LoginView.png)
+![Login View](img src="https://github.com/DavKochkin/BankeyApp/blob/master/LoginView.png" width="500")
 ![Account View](https://github.com/DavKochkin/BankeyApp/blob/master/AccountView.png)
 
