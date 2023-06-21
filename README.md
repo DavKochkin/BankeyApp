@@ -24,17 +24,17 @@ ___
 
 ## Technologies used
 
-+ UIKit
-+ Architecture MVC + MVVM
-+ Implementation programmatically + xib (no storyboard)
-+ AutoLayout
-+ Working with network - URLSession
-+ Saving user actions - UserDefaults
-+ GCD (DispatchQueue.main, DispatchGroup)
-+ UITableView, UITabBarController, UIPageViewController
-+ Delegate pattern, NotificationCenter
-+ UIViewPropertyAnimator, CAKeyFrameAnimation, CGAffineTransform, CABasicAnimation, CAAnimationGroup
-+ XCTest
+* UIKit
+* Architecture MVC + MVVM
+* Implementation programmatically + xib (no storyboard)
+* AutoLayout
+* Working with network - URLSession
+* Saving user actions - UserDefaults
+* GCD (DispatchQueue.main, DispatchGroup)
+* UITableView, UITabBarController, UIPageViewController
+* Delegate pattern, NotificationCenter
+* UIViewPropertyAnimator, CAKeyFrameAnimation, CGAffineTransform, CABasicAnimation, CAAnimationGroup
+* XCTest
 
 
 
