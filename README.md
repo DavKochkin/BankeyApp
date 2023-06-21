@@ -39,3 +39,21 @@ ___
 
 ![AnimationLogin](https://github.com/DavKochkin/BankeyApp/assets/122441539/b7b18bd3-224c-4168-8bc9-c678d0260b21) ![UsernameBlank](https://github.com/DavKochkin/BankeyApp/assets/122441539/9ea684b5-dcb8-437b-b6ef-f94cbcccfc66) ![Incorrect2](https://github.com/DavKochkin/BankeyApp/assets/122441539/288d2e3c-ecb2-4273-8145-684e44e5c62f) ![ShowPassword1](https://github.com/DavKochkin/BankeyApp/assets/122441539/72be525e-d2ed-4e6b-94a6-1d5b71ce6c03) 
 
+## Onboarding 
+
+### Description 
+
+The screen is a container with additional information that appears when the application is first launched.
+
+### Features
+
+To implement the adaptation, a reusable Container View Controller class was created, in which you can substitute the desired image and description when creating an instance of this class. The "container" itself is implemented in the built-in Container View Controller class using UIPageViewController, to which 3 instances of the ContainerViewController class have been added.
+
+Navigation is carried out in 2 ways:
+
+The dotted menu at the bottom.
+Swipe across the screen.
+
+You can close and get to the main screen using the close button or the done button on the last Onboarding screen.
+
+![Onboarding](https://github.com/DavKochkin/BankeyApp/assets/122441539/2c06e90a-70c3-475b-97de-6a846ad289c7)
