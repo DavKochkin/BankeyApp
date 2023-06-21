@@ -77,3 +77,8 @@ __[AccountSummaryCell](https://github.com/DavKochkin/BankeyApp/blob/f7db6948dba4
 
 These classes have additional representations (ViewModel), in which models are created with data for display, which are placed in the corresponding class, relieving it of unnecessary responsibility.
 
+## CurrencyFormatter
+
+To display the balance of accounts in the account, a custom solution in the form of a __[CurrencyFormatter](https://github.com/DavKochkin/BankeyApp/blob/5ac0f460a75a2991abfd7cdd628cd70a8d410e18/Bankey/Utils/CurrencyFormatter.swift)__ structure is also applied.
+
+## Networking
