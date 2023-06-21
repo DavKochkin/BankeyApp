@@ -54,5 +54,5 @@ ___
 * 		After the first login to the application, an OnboardingView will appear with additional information about the application.
 * 		The next time you log in to the application, the main screen will immediately appear.
 
-![LoginViewAnim](https://github.com/DavKochkin/BankeyApp/assets/122441539/e2bf0217-4d7b-409c-a480-e4eaffdf550c) ![UsernameBlank](https://github.com/DavKochkin/BankeyApp/assets/122441539/9ea684b5-dcb8-437b-b6ef-f94cbcccfc66) ![Incorrect2](https://github.com/DavKochkin/BankeyApp/assets/122441539/288d2e3c-ecb2-4273-8145-684e44e5c62f) ![ShowPassword1](https://github.com/DavKochkin/BankeyApp/assets/122441539/72be525e-d2ed-4e6b-94a6-1d5b71ce6c03) 
+![AnimationLogin](https://github.com/DavKochkin/BankeyApp/assets/122441539/b7b18bd3-224c-4168-8bc9-c678d0260b21) ![UsernameBlank](https://github.com/DavKochkin/BankeyApp/assets/122441539/9ea684b5-dcb8-437b-b6ef-f94cbcccfc66) ![Incorrect2](https://github.com/DavKochkin/BankeyApp/assets/122441539/288d2e3c-ecb2-4273-8145-684e44e5c62f) ![ShowPassword1](https://github.com/DavKochkin/BankeyApp/assets/122441539/72be525e-d2ed-4e6b-94a6-1d5b71ce6c03) 
 
