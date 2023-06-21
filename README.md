@@ -65,4 +65,13 @@ You can close and get to the main screen using the close button or the done butt
 
 The first screen from the tabBarList __[MainViewController](https://github.com/DavKochkin/BankeyApp/blob/e6fea6704f43577a3caedb479bcb7d22b40cbd05/Bankey/MainViewController.swift)__. It is an __[AccountSummaryViewController](https://github.com/DavKochkin/BankeyApp/blob/1395b83b5cd51542ac712e1699ee010c6543db02/Bankey/AccountSummary/AccountSummaryViewController.swift)__ table, which contains information about the customer's accounts on his bank account. Account data comes from the network.
 
+### Features
+
+### TableViewCell, tableHeaderView
+
+In order to make the table more informative, 2 custom elements for the header and the table cell are implemented:
+
+__[AccountSummaryHeaderView](https://github.com/DavKochkin/BankeyApp/blob/74c8fb89df522c08c025f4be2b6d2d407c368040/Bankey/AccountSummary/Header/AccountSummaryHeaderView.swift)__ - The table header is implemented using a xib file.
+AccountSummaryCell - the table cell is implemented programmatically.
+These classes have additional representations (ViewModel), in which models are created with data for display, which are placed in the corresponding class, relieving it of unnecessary responsibility.
 
