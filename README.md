@@ -82,3 +82,9 @@ These classes have additional representations (ViewModel), in which models are c
 To display the balance of accounts in the account, a custom solution in the form of a __[CurrencyFormatter](https://github.com/DavKochkin/BankeyApp/blob/5ac0f460a75a2991abfd7cdd628cd70a8d410e18/Bankey/Utils/CurrencyFormatter.swift)__ structure is also applied.
 
 ## Networking
+In the header of the table, data about the client's profile is displayed, and in the cell, data about the account of a specific client. They are taken from the same JSON file, but at 2 different URLs. Therefore, working with the network is divided into two parts, getting a profile and getting an account by its id. __[Profile Manager](https://github.com/DavKochkin/BankeyApp/blob/de137f773fc7a55a122ee20d7606d26fbd195ef2/Bankey/AccountSummary/Networking/ProfileManager.swift)__, __[an extension for Account Summary View Controller](https://github.com/DavKochkin/BankeyApp/blob/de137f773fc7a55a122ee20d7606d26fbd195ef2/Bankey/AccountSummary/AccountSummaryViewController%2BNetworking.swift)__(fetch Accounts).
+
+
+When working with the network, GCD is also used, DispatchQueue.main.async to display the received data in the main stream and DispatchGroup to synchronously display data in the header and cell when loading and refreshing data.
+
+## UIRefreshControl 
