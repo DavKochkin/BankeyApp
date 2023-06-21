@@ -63,6 +63,6 @@ You can close and get to the main screen using the close button or the done butt
 
 ### Description 
 
-The first screen from the tabBarList __[MainViewController](/Additional%20files/README.md](https://github.com/DavKochkin/BankeyApp/blob/e6fea6704f43577a3caedb479bcb7d22b40cbd05/Bankey/MainViewController.swift)__. It is an AccountSummaryViewController table, which contains information about the customer's accounts on his bank account. Account data comes from the network.
+The first screen from the tabBarList __[MainViewController]((/Additional%20files/README.md](https://github.com/DavKochkin/BankeyApp/blob/e6fea6704f43577a3caedb479bcb7d22b40cbd05/Bankey/MainViewController.swift))__. It is an AccountSummaryViewController table, which contains information about the customer's accounts on his bank account. Account data comes from the network.
 
 https://github.com/DavKochkin/BankeyApp/blob/e6fea6704f43577a3caedb479bcb7d22b40cbd05/Bankey/MainViewController.swift
