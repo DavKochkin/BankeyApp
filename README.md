@@ -40,6 +40,6 @@ ___
 
 ## Screenshots
 
-<img src="https://github.com/DavKochkin/BankeyApp/blob/master/LoginView.png" width="150" height="280">
-![Account View](https://github.com/DavKochkin/BankeyApp/blob/master/AccountView.png)
+<img src="https://github.com/DavKochkin/BankeyApp/blob/master/LoginView.png" width="180" height="310">
+<img src="https://github.com/DavKochkin/BankeyApp/blob/master/AccountView.png width="180" height="310">
 
