@@ -72,6 +72,7 @@ The first screen from the tabBarList __[MainViewController](https://github.com/D
 In order to make the table more informative, 2 custom elements for the header and the table cell are implemented:
 
 __[AccountSummaryHeaderView](https://github.com/DavKochkin/BankeyApp/blob/74c8fb89df522c08c025f4be2b6d2d407c368040/Bankey/AccountSummary/Header/AccountSummaryHeaderView.swift)__ - The table header is implemented using a xib file.
-AccountSummaryCell - the table cell is implemented programmatically.
+__[AccountSummaryCell](https://github.com/DavKochkin/BankeyApp/blob/f7db6948dba4aa53bfd5b8a557e4241d2390d4b3/Bankey/AccountSummary/Cells/AccountSummaryCell.swift)__ - the table cell is implemented programmatically.
+
 These classes have additional representations (ViewModel), in which models are created with data for display, which are placed in the corresponding class, relieving it of unnecessary responsibility.
 
