@@ -88,3 +88,13 @@ In the header of the table, data about the client's profile is displayed, and in
 When working with the network, GCD is also used, DispatchQueue.main.async to display the received data in the main stream and DispatchGroup to synchronously display data in the header and cell when loading and refreshing data.
 
 ## UIRefreshControl 
+
+For this screen, it is possible to get the data of a random user (1 of 4) by updating the data via UIRefreshControl
+
+![RefreshControl](https://github.com/DavKochkin/BankeyApp/assets/122441539/91c5306e-c182-4382-9ef5-62ae110fec26)
+
+## ErrorAlert 
+
+If an error occurs when downloading data from the network, then using the AlertController, the user will be notified of problems with receiving data or a network failure. A specific name and message will be shown for each error. The error type is contained in the Network Error enumeration.
+
+![ErrorAlert](https://github.com/DavKochkin/BankeyApp/assets/122441539/a4bef5e8-787f-4f52-a0d9-316a92886fd9)
