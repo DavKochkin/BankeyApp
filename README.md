@@ -41,5 +41,5 @@ ___
 ## Screenshots
 
 <img src="https://github.com/DavKochkin/BankeyApp/blob/master/LoginView.png" width="150" height="280">
-<img src="https://github.com/DavKochkin/BankeyApp/blob/master/AccountView.png width="150" height="280">
+<img src="https://github.com/DavKochkin/BankeyApp/blob/master/AccountView.png" width="150" height="280">
 
