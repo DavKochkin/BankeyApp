@@ -19,8 +19,8 @@ The project is an example of a banking application with test data.
 + XCTest
 
 
-<img width="428" alt="LoginView" src="https://github.com/DavKochkin/DavKochkin/assets/122441539/0cca99c8-1e98-4935-9893-0940bf7a9da4">
-<img width="428" alt="AccountView" src="https://github.com/DavKochkin/DavKochkin/assets/122441539/4003715e-dc90-4ac7-9e43-1c3900a0653b"> 
+<img width="300" alt="LoginView" src="https://github.com/DavKochkin/DavKochkin/assets/122441539/0cca99c8-1e98-4935-9893-0940bf7a9da4">
+<img width="300" alt="AccountView" src="https://github.com/DavKochkin/DavKochkin/assets/122441539/4003715e-dc90-4ac7-9e43-1c3900a0653b"> 
 
 # LoginView 
 
@@ -86,14 +86,15 @@ In order to make the table more informative, 2 custom elements for the header an
 
 ### UIRefreshControl 
 
-For this screen, it is possible to get the data of a random user (1 of 4) by updating the data via UIRefreshControl.
++ For this screen, it is possible to get the data of a random user (1 of 4) by updating the data via UIRefreshControl.
++ A flickering representation in the form of a "wireframe" for the displayed data in a table cell. It can be seen when data is loaded from the network for a long time, errors appear or a long update using refreshControl.
 
 ![RefreshControl](https://github.com/DavKochkin/DavKochkin/assets/122441539/d6733264-7684-468f-80ee-3bf45d3b62af)
 
 
 # Animations 
 
-+ A small bell in the qheaderview table of the main screen. Animation occurs every time you click on an object.
+A small bell in the qheaderview table of the main screen. Animation occurs every time you click on an object.
 
 ![ShakeyBell](https://github.com/DavKochkin/DavKochkin/assets/122441539/a8cd5c49-d4f0-494e-8cd9-2341ac1ab47d)
 
