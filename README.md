@@ -37,3 +37,27 @@ The project is an example of a banking application with test data.
 ![Incorrect2](https://github.com/DavKochkin/DavKochkin/assets/122441539/87f692ab-896c-48f8-a593-a8e86e803177)
 ![ShowPassword1](https://github.com/DavKochkin/DavKochkin/assets/122441539/ca43816a-5e6c-41c7-a01a-e6aab3658adf)
 ![UsernameBlank](https://github.com/DavKochkin/DavKochkin/assets/122441539/4cece444-73d9-4b58-8ce2-87a431ca0809)
+
+
+# OnboardingView 
+
+## Description
+
+The screen is a container with additional information that appears when the application is first launched.
+
+### Features 
+
+To implement Onboarding, a reusable ContainerViewController class has been created, in which you can substitute the desired image and description when creating an instance of this class. The "container" itself is implemented in the OnboardingContainerViewController class using UIPageViewController, to which 3 instances of the ContainerViewController class have been added.
+https://github.com/DavKochkin/BankeyApp/blob/master/Bankey/Onboarding/OnboardingContainerViewController.swift/README.md?plain=1.
+
+Navigation is carried out in 2 ways:
+
+The dotted menu at the bottom
+Swipe across the screen
+
+You can close and get to the main screen using the close button or the done button on the last Onboarding screen.
+
+![Onboarding](https://github.com/DavKochkin/DavKochkin/assets/122441539/6c01234e-75ee-42d5-a975-d20722e599a2)
+
+
+
